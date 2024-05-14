@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.3.2">
 <title data-rh="true">Enablement | Carbon Aware SDK</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://carbon-aware-sdk.greensoftware.foundation/img/CASDK-logo.png"><meta data-rh="true" name="twitter:image" content="https://carbon-aware-sdk.greensoftware.foundation/img/CASDK-logo.png"><meta data-rh="true" property="og:url" content="https://carbon-aware-sdk.greensoftware.foundation/docs/overview/enablement"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Enablement | Carbon Aware SDK"><meta data-rh="true" name="description" content="Table of Contents"><meta data-rh="true" property="og:description" content="Table of Contents"><link data-rh="true" rel="icon" href="/img/favicon-32x32.png"><link data-rh="true" rel="canonical" href="https://carbon-aware-sdk.greensoftware.foundation/docs/overview/enablement"><link data-rh="true" rel="alternate" href="https://carbon-aware-sdk.greensoftware.foundation/docs/overview/enablement" hreflang="en"><link data-rh="true" rel="alternate" href="https://carbon-aware-sdk.greensoftware.foundation/docs/overview/enablement" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Carbon Aware SDK RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Carbon Aware SDK Atom Feed"><link rel="stylesheet" href="/assets/css/styles.02021e2f.css">
-<script src="/assets/js/runtime~main.5e7bcc1a.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.f0f3c3d9.js" defer="defer"></script>
 <script src="/assets/js/main.f514a305.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -552,7 +552,7 @@ using environment variables, you&#x27;d do this:</p>
 </code></pre>
 <h4 id="local-project-settings">Local project settings</h4>
 <p>For local-only settings you can use environment variables,
-<a href="https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-6.0&amp;tabs=windows#secret-manager">the Secret Manager tool</a>
+<a href="https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?tabs=windows#secret-manager">the Secret Manager tool</a>
 , or an untracked Development appsettings file to override the default project
 settings.</p>
 <p>To use the settings file, rename a copy of the template called
@@ -561,7 +561,7 @@ remove the first line of (invalid) comments. Then update any settings according
 to your preferences.</p>
 <blockquote>
 <p>Wherever possible, the projects leverage the
-<a href="https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0#default-application-configuration-sources">default .NET configuration</a>
+<a href="https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?#default-application-configuration-sources">default .NET configuration</a>
 expectations. Thus, they can be configured using any file matching the format:
 <code>appsettings.&lt;ENV&gt;.json</code>. Where <code>&lt;ENV&gt;</code> is the value of the
 <code>ASPNETCORE_ENVIRONMENT</code> environment variable. By convention projects tend to
